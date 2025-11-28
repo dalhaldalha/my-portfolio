@@ -1,0 +1,66 @@
+<?php require_once __DIR__ . '/config.php'; ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?php echo SITE_TITLE; ?></title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- Preloader -->
+<div id="preloader">
+    <div class="loader-content">
+        <span class="loader-text">LOADING</span>
+        <div class="loader-bar"></div>
+    </div>
+</div>
+
+<!-- Navigation -->
+<header id="main-header">
+    <div class="container header-container">
+        <div class="logo">
+            <a href="#">DL<span>.</span></a>
+        </div>
+        
+        <nav class="desktop-nav">
+            <ul>
+                <?php foreach($navItems as $link => $label): ?>
+                    <li><a href="<?php echo $link; ?>"><?php echo $label; ?></a></li>
+                <?php endforeach; ?>
+            </ul>
+        </nav>
+
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
+            <span class="toggle-slider"></span>
+        </button>
+
+        <div class="mobile-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</header>
+
+<!-- Mobile Menu Overlay -->
+<div class="mobile-menu">
+    <ul>
+        <?php foreach($navItems as $link => $label): ?>
+            <li><a href="<?php echo $link; ?>"><?php echo $label; ?></a></li>
+        <?php endforeach; ?>
+    </ul>
+</div>
+
+<main>
