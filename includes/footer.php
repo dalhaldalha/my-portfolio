@@ -12,6 +12,7 @@
                 <a href="https://github.com/dalhaldalha" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/dalha-dalha-135ab1123/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
                 <a href="https://x.com/dalha28" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                <a href="https://wa.me/2349035853467" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
                 <a href="mailto:<?php echo SITE_EMAIL; ?>" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a>
             </div>
         </div>
