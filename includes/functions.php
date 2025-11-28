@@ -25,19 +25,19 @@ function getExperience() {
             'year' => '2025 - Present',
             'role' => 'Wordpress Developer',
             'company' => 'Bakandamiya Int Limited',
-            'desc' => 'Developing robust backend systems, optimizing database queries, and building custom WordPress themes for high-profile clients.'
+            'desc' => 'Developed and customized WordPress plugins to extend site functionality, streamline workflows, and support the company’s evolving digital needs.'
         ],
         [
             'year' => '2022 - 2023',
             'role' => 'Web Designer',
             'company' => 'HMD Int\'L Limited',
-            'desc' => 'Developing robust backend systems, optimizing database queries, and building custom WordPress themes for high-profile clients.'
+            'desc' => 'Designed and built responsive website layouts, ensuring clean visuals and smooth user experience while supporting the company’s brand and online presence.'
         ],
         [
             'year' => '202 - Present',
             'role' => 'Graphic Designer & Social Media Manager',
             'company' => 'Penprofile',
-            'desc' => 'Delivered 20+ projects including e-commerce stores, portfolio sites, and business landing pages using PHP and modern frontend stacks.'
+            'desc' => 'Create visual assets and manage social media content to strengthen brand identity, improve engagement, and support the company’s overall digital communication strategy.'
         ]
     ];
 }
