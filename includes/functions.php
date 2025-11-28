@@ -85,11 +85,11 @@ function getProjects() {
             'tech_stack' => ['WordPress', 'PHP', 'Custom CSS', 'JavaScript'],
             'link' => '#',
             'images' => [
-                'assets/images/VacancyUnlocked 1.png',
-                'assets/images/VacancyUnlocked 5.png',
-                'assets/images/VacancyUnlocked 3.png',
-                'assets/images/VacancyUnlocked 4.png',
-                'assets/images/VacancyUnlocked 2.png'
+                'assets/images/Vacancyunlocked 1.png',
+                'assets/images/Vacancyunlocked 5.png',
+                'assets/images/Vacancyunlocked 3.png',
+                'assets/images/Vacancyunlocked 4.png',
+                'assets/images/Vacancyunlocked 2.png'
             ]
         ]
         
