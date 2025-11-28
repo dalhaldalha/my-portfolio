@@ -49,12 +49,16 @@ $projects = getProjects();
                 <p>Reach out and let’s create something you can rely on.</p>
             
             </div>
+                
             <div class="about-image">
                 <div class="about-image-wrapper">
                     <img src="assets/images/profile-pic-2.png" alt="Dalha - PHP Developer" class="profile-pic">
                     <div class="image-border"></div>
                 </div>
             </div>
+                
+            
+                
         </div>
     </div>
 </section>
