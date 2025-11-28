@@ -34,7 +34,7 @@ function getExperience() {
             'desc' => 'Designed and built responsive website layouts, ensuring clean visuals and smooth user experience while supporting the company’s brand and online presence.'
         ],
         [
-            'year' => '202 - Present',
+            'year' => '2022 - Present',
             'role' => 'Graphic Designer & Social Media Manager',
             'company' => 'Penprofile',
             'desc' => 'Create visual assets and manage social media content to strengthen brand identity, improve engagement, and support the company’s overall digital communication strategy.'
