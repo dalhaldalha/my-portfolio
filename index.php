@@ -150,6 +150,7 @@ $projects = getProjects();
     </div>
 </section>
 
+
 <!-- Contact Section -->
 <section id="contact">
     <div class="container contact-content">

@@ -89,8 +89,8 @@ document.addEventListener('DOMContentLoaded', () => {
         link.addEventListener('click', (e) => {
             const href = link.getAttribute('href');
 
-            // Skip if it's just "#" or modal links
-            if (href === '#' || href === '#project-modal') return;
+            // Skip if it's just "#", modal links, or has modal-link class
+            if (href === '#' || href === '#project-modal' || link.classList.contains('modal-link')) return;
 
             e.preventDefault();
 

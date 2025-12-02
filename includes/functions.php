@@ -52,7 +52,7 @@ function getProjects() {
             'desc' => 'A polished interior design platform crafted with WordPress, featuring a clean layout, curated project displays, and a smooth browsing experience.',
             'details' => 'An Interior Design Website built with WordPress, showcasing curated projects, clean aesthetics, and smooth navigation. It features custom HTML elements styled with custom CSS to give the site a more unique look and enhance the overall presentation across devices.',
             'tech_stack' => ['WordPress', 'PhP', 'Custom CSS', 'JavaScript'],
-            'link' => '#',
+            'link' => 'https://taldotconsulting.com',
             'images' => [
                 'assets/images/Taldot Consulting 1.png',
                 'assets/images/Taldot Consulting 2.png',
@@ -61,6 +61,7 @@ function getProjects() {
                 'assets/images/Taldot Consulting 5.png'
             ] 
         ],
+
         [
             'id' => 'hmd-project',
             'title' => "HMD Int'l Limited",
@@ -68,7 +69,7 @@ function getProjects() {
             'desc' => 'A full-scale corporate site built for a multi-service construction and real estate firm, presenting its services and company profile in a clear professional layout.',
             'details' => 'Designed and developed a professional corporate website for HMD International Limited. The site showcases their diverse services including construction, real estate, and interior design. Features include a dynamic project portfolio, service detailing, and a responsive design that reflects their brand authority.',
             'tech_stack' => ['WordPress', 'PHP', 'Custom CSS', 'JavaScript'],
-            'link' => '#',
+            'link' => 'https://hmdlimited.com/',
             'images' => [
                 'assets/images/HMD Int\'l Limited 6.png',
                 'assets/images/HMD Int\'l Limited 2.png',
@@ -76,6 +77,24 @@ function getProjects() {
                 'assets/images/HMD Int\'l Limited 5.png'
             ]
         ],
+
+        [
+            'id' => 'project-3',
+            'title' => 'Jobsintelregion',
+            'category' => 'Job Board Website',
+            'desc' => 'A modern job portal developed with WordPress, designed to help users post, browse, and apply for opportunities through a clean and organized interface.',
+            'details' => 'A job portal website built with WordPress, offering a clean interface for posting and browsing job listings. It includes organized categories, smooth navigation, and custom styling to keep the experience clear, modern, and easy for users searching or hiring.',
+            'tech_stack' => ['WordPress', 'PHP', 'Custom CSS', 'JavaScript'],
+            'link' => 'https://jobsintelregion.com/',
+            'images' => [
+                'assets/images/Jobsintelregion 1.png',
+                'assets/images/Jobsintelregion 2.png',
+                'assets/images/Jobsintelregion 3.png',
+                'assets/images/Jobsintelregion 4.png',
+                'assets/images/Jobsintelregion 5.png'
+            ]
+        ],
+
         [
             'id' => 'project-2',
             'title' => 'Vacancyunlocked',
