@@ -1,7 +1,7 @@
 <?php
 // Site Configuration
 define('SITE_TITLE', 'Dalha Lawan | Junior PHP Developer');
-define('SITE_EMAIL', 'dalhalawand@gmail.com');
+define('SITE_EMAIL', 'contact@dalhalawan.site');
 define('SITE_URL', 'http://localhost/MyPortfolio'); // Update as needed
 
 // Navigation Items
