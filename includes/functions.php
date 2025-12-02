@@ -82,8 +82,8 @@ function getProjects() {
             'id' => 'project-3',
             'title' => 'Jobsintelregion',
             'category' => 'Job Board Website',
-            'desc' => 'A modern job portal developed with WordPress, designed to help users post, browse, and apply for opportunities through a clean and organized interface.',
-            'details' => 'A job portal website built with WordPress, offering a clean interface for posting and browsing job listings. It includes organized categories, smooth navigation, and custom styling to keep the experience clear, modern, and easy for users searching or hiring.',
+            'desc' => 'A job and career platform that connects people with verified opportunities, offering clear listings and practical guidance for smarter career decisions.',
+            'details' => 'A streamlined job and career resource platform designed to connect job seekers with credible employment opportunities across multiple industries. It provides up-to-date listings, career insights, employer information, and practical guidance to help users make informed professional decisions.',
             'tech_stack' => ['WordPress', 'PHP', 'Custom CSS', 'JavaScript'],
             'link' => 'https://jobsintelregion.com/',
             'images' => [
