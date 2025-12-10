@@ -4,7 +4,15 @@ require_once 'includes/header.php';
 
 $skills = getSkills();
 $experience = getExperience();
-$projects = getProjects();
+$allProjects = getProjects();
+
+$webProjects = array_filter($allProjects, function($p) {
+    return !isset($p['type']) || $p['type'] === 'web';
+});
+
+$graphicProjects = array_filter($allProjects, function($p) {
+    return isset($p['type']) && $p['type'] === 'graphic';
+});
 ?>
 
 <!-- Hero Section -->
@@ -120,8 +128,10 @@ $projects = getProjects();
             <h2 class="section-title"><span class="section-number">04.</span> Some Things I've Built</h2>
         </div>
 
-        <div class="projects-grid">
-            <?php foreach($projects as $project): ?>
+        <!-- Web Design Section -->
+        <h3 class="subsection-title" style="margin-bottom: 2rem; color: var(--text-main);">Web Design</h3>
+        <div class="projects-grid" style="margin-bottom: 4rem;">
+            <?php foreach($webProjects as $project): ?>
                 <div class="project-card" data-id="<?php echo $project['id']; ?>">
                     <div class="project-image">
                         <?php if(!empty($project['images'])): ?>
@@ -147,6 +157,40 @@ $projects = getProjects();
                 </div>
             <?php endforeach; ?>
         </div>
+
+        <!-- Graphic Design Section -->
+        <?php if(!empty($graphicProjects)): ?>
+            <h3 class="subsection-title" style="margin-bottom: 2rem; color: var(--text-main);">Graphic Design</h3>
+            <div class="projects-grid">
+                <?php foreach($graphicProjects as $project): ?>
+                    <div class="project-card" data-id="<?php echo $project['id']; ?>">
+                        <div class="project-image">
+                            <?php if(!empty($project['images'])): ?>
+                                <img src="<?php echo $project['images'][0]; ?>" alt="<?php echo $project['title']; ?>" style="width: 100%; height: 100%; object-fit: cover;">
+                            <?php else: ?>
+                                <div style="width: 100%; height: 100%; background: var(--bg-card); display: flex; align-items: center; justify-content: center;">
+                                    <i class="fas fa-palette" style="font-size: 3rem; opacity: 0.5; color: var(--accent);"></i>
+                                </div>
+                            <?php endif; ?>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-cat"><?php echo $project['category']; ?></span>
+                            <h3 class="project-title"><?php echo $project['title']; ?></h3>
+                            <p class="project-desc"><?php echo $project['desc']; ?></p>
+                            <button class="project-link view-project-btn" 
+                                    data-title="<?php echo htmlspecialchars($project['title']); ?>"
+                                    data-category="<?php echo htmlspecialchars($project['category']); ?>"
+                                    data-details="<?php echo htmlspecialchars($project['details']); ?>"
+                                    data-tech="<?php echo htmlspecialchars(json_encode($project['tech_stack'])); ?>"
+                                    data-images="<?php echo htmlspecialchars(json_encode($project['images'])); ?>"
+                                    data-link="<?php echo $project['link']; ?>">
+                                View Project <i class="fas fa-arrow-right" style="margin-left: 5px;"></i>
+                            </button>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+            </div>
+        <?php endif; ?>
     </div>
 </section>
 

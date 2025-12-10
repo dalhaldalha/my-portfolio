@@ -47,6 +47,7 @@ function getProjects() {
     return [
         [
             'id' => 'project-1',
+            'type' => 'web',
             'title' => 'Taldot Consulting',
             'category' => 'Interior Design Website',
             'desc' => 'A polished interior design platform crafted with WordPress, featuring a clean layout, curated project displays, and a smooth browsing experience.',
@@ -64,6 +65,7 @@ function getProjects() {
 
         [
             'id' => 'hmd-project',
+            'type' => 'web',
             'title' => "HMD Int'l Limited",
             'category' => 'Real Estate/Construction Website',
             'desc' => 'A full-scale corporate site built for a multi-service construction and real estate firm, presenting its services and company profile in a clear professional layout.',
@@ -80,6 +82,7 @@ function getProjects() {
 
         [
             'id' => 'project-3',
+            'type' => 'web',
             'title' => 'Jobsintelregion',
             'category' => 'Job Board Website',
             'desc' => 'A job and career platform that connects people with verified opportunities, offering clear listings and practical guidance for smarter career decisions.',
@@ -97,6 +100,7 @@ function getProjects() {
 
         [
             'id' => 'project-2',
+            'type' => 'web',
             'title' => 'Vacancyunlocked',
             'category' => 'Job Portal Website',
             'desc' => 'A modern job portal developed with WordPress, designed to help users post, browse, and apply for opportunities through a clean and organized interface.',
@@ -110,6 +114,24 @@ function getProjects() {
                 'assets/images/Vacancyunlocked 4.png',
                 'assets/images/Vacancyunlocked 2.png'
             ]
+        ],
+
+        [
+            'id' => 'graphic-1',
+            'type' => 'graphic',
+            'title' => 'HMD Limited Graphics',
+            'category' => 'Graphic Design',
+            'desc' => 'A comprehensive brand identity package including logo design, social media assets, and marketing materials.',
+            'details' => 'This project involved creating a cohesive visual identity for a client. Deliverables included a primary logo, secondary marks, color palette selection, typography guidelines, and a suite of social media templates to ensure consistent brand representation across all channels.',
+            'tech_stack' => ['Photoshop', 'Illustrator', 'Canva'],
+            'link' => '#',
+            'images' => [
+                'assets/images/HMD Limited Old 1.jpg',
+                'assets/images/HMD Limited Old 2.jpg',
+                'assets/images/HMD Limited Old 3.jpg',
+                'assets/images/HMD Limited Old 4.jpg',
+                'assets/images/HMD Limited Old 5.jpg'
+            ] 
         ]
         
     ];
