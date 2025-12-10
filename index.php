@@ -135,7 +135,7 @@ $graphicProjects = array_filter($allProjects, function($p) {
                 <div class="project-card" data-id="<?php echo $project['id']; ?>">
                     <div class="project-image">
                         <?php if(!empty($project['images'])): ?>
-                            <img src="<?php echo $project['images'][0]; ?>" alt="<?php echo $project['title']; ?>" style="width: 100%; height: 100%; object-fit: cover;">
+                            <img src="<?php echo $project['images'][0]; ?>" alt="<?php echo $project['title']; ?>" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy">
                         <?php else: ?>
                             <i class="fas fa-folder-open" style="font-size: 3rem; opacity: 0.5;"></i>
                         <?php endif; ?>
@@ -166,7 +166,7 @@ $graphicProjects = array_filter($allProjects, function($p) {
                     <div class="project-card" data-id="<?php echo $project['id']; ?>">
                         <div class="project-image">
                             <?php if(!empty($project['images'])): ?>
-                                <img src="<?php echo $project['images'][0]; ?>" alt="<?php echo $project['title']; ?>" style="width: 100%; height: 100%; object-fit: cover;">
+                                <img src="<?php echo $project['images'][0]; ?>" alt="<?php echo $project['title']; ?>" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy">
                             <?php else: ?>
                                 <div style="width: 100%; height: 100%; background: var(--bg-card); display: flex; align-items: center; justify-content: center;">
                                     <i class="fas fa-palette" style="font-size: 3rem; opacity: 0.5; color: var(--accent);"></i>

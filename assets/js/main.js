@@ -73,12 +73,21 @@ document.addEventListener('DOMContentLoaded', () => {
     // Preloader
     const preloader = document.getElementById('preloader');
     if (preloader) {
+        // Force hide after 3 seconds max, regardless of loading state
+        // This prevents the user from staring at a loader if images take too long
+        const safetyTimeout = setTimeout(() => {
+            hidePreloader();
+        }, 3000);
+
         window.addEventListener('load', () => {
-            setTimeout(() => {
-                preloader.style.opacity = '0';
-                preloader.style.visibility = 'hidden';
-            }, 500);
+            clearTimeout(safetyTimeout); // If loaded faster, cancel safety
+            setTimeout(hidePreloader, 500); // Small aesthetic delay
         });
+
+        function hidePreloader() {
+            preloader.style.opacity = '0';
+            preloader.style.visibility = 'hidden';
+        }
     }
 
 
