@@ -201,11 +201,7 @@ function getProjects() {
             'tech_stack' => ['Photoshop', 'Illustrator', 'Canva'],
             'link' => '#',
             'images' => [
-                'assets/images/Bell Graphics Old 1.jpg',
-                'assets/images/Bell Graphics Old 2.jpg',
-                'assets/images/Bell Graphics Old 3.jpg',
-                'assets/images/Bell Graphics Old 4.jpg',
-                'assets/images/Bell Graphics Old 5.jpg'
+                'assets/images/Solara Pay Pitch Deck 1.png'
             ] 
         ],
 
@@ -219,7 +215,9 @@ function getProjects() {
             'tech_stack' => ['Photoshop', 'Illustrator', 'Canva'],
             'link' => '#',
             'images' => [
-                'assets/images/Solara Pay Pitch Deck 1.png'
+                'assets/images/Photo Manupulation 1.png',
+                'assets/images/Photo Manupulation 2.png',
+                
             ] 
         ]
         
