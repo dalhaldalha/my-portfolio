@@ -5,7 +5,7 @@ function getSkills() {
         'Backend' => [
             ['name' => 'PHP', 'level' => 75, 'icon' => 'fab fa-php'],
             ['name' => 'WordPress', 'level' => 95, 'icon' => 'fab fa-wordpress'],
-            ['name' => 'MySQL', 'level' => 60, 'icon' => 'fas fa-database'],
+            ['name' => 'Photoshop', 'level' => 85, 'icon' => 'fas fa-palette'],
         ],
         'Frontend' => [
             ['name' => 'JavaScript', 'level' => 60, 'icon' => 'fab fa-js'],
@@ -126,13 +126,102 @@ function getProjects() {
             'tech_stack' => ['Photoshop', 'Illustrator', 'Canva'],
             'link' => '#',
             'images' => [
-                'assets/images/HMD Limited Old 1.jpg',
-                'assets/images/HMD Limited Old 2.jpg',
-                'assets/images/HMD Limited Old 3.jpg',
-                'assets/images/HMD Limited Old 4.jpg',
-                'assets/images/HMD Limited Old 5.jpg'
+                'assets/images/Bell Transport New 1.png',
+                'assets/images/Bell Transport New 2.png',
+                'assets/images/Bell Transport New 3.png',
+                'assets/images/Bell Transport New 4.png',
+                'assets/images/Bell Transport New 5.png'
+            ] 
+        ],
+
+        [
+            'id' => 'graphic-1',
+            'type' => 'graphic',
+            'title' => 'HMD Limited Graphics',
+            'category' => 'Graphic Design',
+            'desc' => 'A comprehensive brand identity package including logo design, social media assets, and marketing materials.',
+            'details' => 'This project involved creating a cohesive visual identity for a client. Deliverables included a primary logo, secondary marks, color palette selection, typography guidelines, and a suite of social media templates to ensure consistent brand representation across all channels.',
+            'tech_stack' => ['Photoshop', 'Illustrator', 'Canva'],
+            'link' => '#',
+            'images' => [
+                'assets/images/HMD Limited Old 1.png',
+                'assets/images/HMD Limited Old 2.png',
+                'assets/images/HMD Limited Old 3.png',
+                'assets/images/HMD Limited Old 4.png',
+                'assets/images/HMD Limited Old 5.png',
+                'assets/images/HMD Limited Old 6.png',
+                'assets/images/HMD Limited Old 7.png'
+            ] 
+        ],
+
+        [
+            'id' => 'graphic-1',
+            'type' => 'graphic',
+            'title' => 'HMD Limited Graphics',
+            'category' => 'Graphic Design',
+            'desc' => 'A comprehensive brand identity package including logo design, social media assets, and marketing materials.',
+            'details' => 'This project involved creating a cohesive visual identity for a client. Deliverables included a primary logo, secondary marks, color palette selection, typography guidelines, and a suite of social media templates to ensure consistent brand representation across all channels.',
+            'tech_stack' => ['Photoshop', 'Illustrator', 'Canva'],
+            'link' => '#',
+            'images' => [
+                'assets/images/Bell Graphics Old 1.jpg',
+                'assets/images/Bell Graphics Old 2.jpg',
+                'assets/images/Bell Graphics Old 3.jpg',
+                'assets/images/Bell Graphics Old 4.jpg',
+                'assets/images/Bell Graphics Old 5.jpg'
+            ] 
+        ],
+
+        [
+            'id' => 'graphic-1',
+            'type' => 'graphic',
+            'title' => 'HMD Limited Graphics',
+            'category' => 'Graphic Design',
+            'desc' => 'A comprehensive brand identity package including logo design, social media assets, and marketing materials.',
+            'details' => 'This project involved creating a cohesive visual identity for a client. Deliverables included a primary logo, secondary marks, color palette selection, typography guidelines, and a suite of social media templates to ensure consistent brand representation across all channels.',
+            'tech_stack' => ['Photoshop', 'Illustrator', 'Canva'],
+            'link' => '#',
+            'images' => [
+                'assets/images/Solara Pay Pitch Deck 1.png'
+            ] 
+        ],
+
+        [
+            'id' => 'graphic-1',
+            'type' => 'graphic',
+            'title' => 'HMD Limited Graphics',
+            'category' => 'Graphic Design',
+            'desc' => 'A comprehensive brand identity package including logo design, social media assets, and marketing materials.',
+            'details' => 'This project involved creating a cohesive visual identity for a client. Deliverables included a primary logo, secondary marks, color palette selection, typography guidelines, and a suite of social media templates to ensure consistent brand representation across all channels.',
+            'tech_stack' => ['Photoshop', 'Illustrator', 'Canva'],
+            'link' => '#',
+            'images' => [
+                'assets/images/Bakandamiya Shopping 1.png',
+                'assets/images/Bakandamiya Shopping 2.png',
+                'assets/images/Bakandamiya Shopping 3.png'
+            ] 
+        ],
+
+        [
+            'id' => 'graphic-1',
+            'type' => 'graphic',
+            'title' => 'HMD Limited Graphics',
+            'category' => 'Graphic Design',
+            'desc' => 'A comprehensive brand identity package including logo design, social media assets, and marketing materials.',
+            'details' => 'This project involved creating a cohesive visual identity for a client. Deliverables included a primary logo, secondary marks, color palette selection, typography guidelines, and a suite of social media templates to ensure consistent brand representation across all channels.',
+            'tech_stack' => ['Photoshop', 'Illustrator', 'Canva'],
+            'link' => '#',
+            'images' => [
+                'assets/images/Solar Pay Social 1.png',
+                'assets/images/Solar Pay Social 2.png',
+                'assets/images/Solar Pay Social 3.png',
+                'assets/images/Solar Pay Social 4.png',
+                'assets/images/Solar Pay Social 5.png',
+                'assets/images/Solar Pay Social 6.png',
+                'assets/images/Solar Pay Social 7.png'
             ] 
         ]
+        
         
     ];
 }
