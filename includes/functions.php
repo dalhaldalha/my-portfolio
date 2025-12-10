@@ -118,14 +118,14 @@ function getProjects() {
 
         //Graphic Design
         [
-            'id' => 'graphic-1',
+            'id' => 'graphic-hmd',
             'type' => 'graphic',
             'title' => 'HMD Limited Graphics',
-            'category' => 'Graphic Design',
-            'desc' => 'A comprehensive brand identity package including logo design, social media assets, and marketing materials.',
-            'details' => 'This project involved creating a cohesive visual identity for a client. Deliverables included a primary logo, secondary marks, color palette selection, typography guidelines, and a suite of social media templates to ensure consistent brand representation across all channels.',
+            'category' => 'Social Media Design',
+            'desc' => 'A professional corporate identity suite including logo design and branding materials for a construction and real estate firm.',
+            'details' => 'Developed a strong, trustworthy visual identity for HMD Limited. This included designing a modern logo, business cards, letterheads, and social media assets that reflect the company\'s reliability and expertise in the construction sector.',
             'tech_stack' => ['Photoshop', 'Illustrator', 'Canva'],
-            'link' => '#',
+            'link' => 'https://hmdlimited.com/',
             'images' => [
                 'assets/images/HMD Limited Old 1.png',
                 'assets/images/HMD Limited Old 2.png',
@@ -138,14 +138,14 @@ function getProjects() {
         ],
 
         [
-            'id' => 'graphic-1',
+            'id' => 'graphic-bell',
             'type' => 'graphic',
-            'title' => 'HMD Limited Graphics',
-            'category' => 'Graphic Design',
-            'desc' => 'A comprehensive brand identity package including logo design, social media assets, and marketing materials.',
-            'details' => 'This project involved creating a cohesive visual identity for a client. Deliverables included a primary logo, secondary marks, color palette selection, typography guidelines, and a suite of social media templates to ensure consistent brand representation across all channels.',
-            'tech_stack' => ['Photoshop', 'Illustrator', 'Canva'],
-            'link' => '#',
+            'title' => 'Bell Transport Graphics',
+            'category' => 'Social Media Design',
+            'desc' => 'Dynamic branding and vehicle livery design for a logistics company, focusing on speed and reliability.',
+            'details' => 'Created a cohesive Social Media brand system for Bell Transport. The project involved designing a vehicle branding (livery), and marketing materials to ensure high visibility and brand recognition on the road.',
+            'tech_stack' => ['Photoshop', 'Canva'],
+            'link' => 'https://belltransport.ng/',
             'images' => [
                 'assets/images/Bell Transport New 1.png',
                 'assets/images/Bell Transport New 2.png',
@@ -156,14 +156,14 @@ function getProjects() {
         ],
 
         [
-            'id' => 'graphic-1',
+            'id' => 'graphic-solar',
             'type' => 'graphic',
-            'title' => 'HMD Limited Graphics',
-            'category' => 'Graphic Design',
-            'desc' => 'A comprehensive brand identity package including logo design, social media assets, and marketing materials.',
-            'details' => 'This project involved creating a cohesive visual identity for a client. Deliverables included a primary logo, secondary marks, color palette selection, typography guidelines, and a suite of social media templates to ensure consistent brand representation across all channels.',
-            'tech_stack' => ['Photoshop', 'Illustrator', 'Canva'],
-            'link' => '#',
+            'title' => 'Solar Pay',
+            'category' => 'Social Media Design',
+            'desc' => 'Engaging social media graphics and marketing assets designed to promote a modern fintech solution.',
+            'details' => 'Designed a series of vibrant and engaging social media creatives for Solar Pay. The focus was on clear communication of financial features, using modern typography and consistent brand colors to build trust and user engagement across digital platforms.',
+            'tech_stack' => ['Photoshop', 'Canva'],
+            'link' => 'https://solarpay.fun/',
             'images' => [
                 'assets/images/Solar Pay Social 1.png',
                 'assets/images/Solar Pay Social 2.png',
@@ -176,14 +176,14 @@ function getProjects() {
         ],
 
         [
-            'id' => 'graphic-1',
+            'id' => 'graphic-shopping',
             'type' => 'graphic',
-            'title' => 'HMD Limited Graphics',
-            'category' => 'Graphic Design',
-            'desc' => 'A comprehensive brand identity package including logo design, social media assets, and marketing materials.',
-            'details' => 'This project involved creating a cohesive visual identity for a client. Deliverables included a primary logo, secondary marks, color palette selection, typography guidelines, and a suite of social media templates to ensure consistent brand representation across all channels.',
-            'tech_stack' => ['Photoshop', 'Illustrator', 'Canva'],
-            'link' => '#',
+            'title' => 'Bakandamiya Shopping',
+            'category' => 'E-commerce Graphics',
+            'desc' => 'Eye-catching e-commerce promotional graphics designed to highlight products and drive sales.',
+            'details' => 'Produced a set of high-conversion promotional banners and product graphics for Bakandamiya Shopping. The designs focus on product visibility, clear calls-to-action, and an appealing layout to enhance the online shopping experience.',
+            'tech_stack' => ['Photoshop'],
+            'link' => 'https://shopping.bakandamiya.com/',
             'images' => [
                 'assets/images/Bakandamiya Shopping 1.png',
                 'assets/images/Bakandamiya Shopping 2.png',
@@ -192,26 +192,26 @@ function getProjects() {
         ],
 
         [
-            'id' => 'graphic-1',
+            'id' => 'graphic-pitch',
             'type' => 'graphic',
-            'title' => 'HMD Limited Graphics',
-            'category' => 'Graphic Design',
-            'desc' => 'A comprehensive brand identity package including logo design, social media assets, and marketing materials.',
-            'details' => 'This project involved creating a cohesive visual identity for a client. Deliverables included a primary logo, secondary marks, color palette selection, typography guidelines, and a suite of social media templates to ensure consistent brand representation across all channels.',
-            'tech_stack' => ['Photoshop', 'Illustrator', 'Canva'],
-            'link' => '#',
+            'title' => 'Solara Pay Pitch Deck',
+            'category' => 'Presentation Design',
+            'desc' => 'A clean, professional pitch deck design aimed at investors, featuring clear data visualization and strategic layout.',
+            'details' => 'Designed a compelling pitch deck for Solara Pay to present to potential investors. The layout emphasizes clarity, using custom infographics and a structured narrative flow to effectively communicate the business model and growth potential.',
+            'tech_stack' => ['Photoshop','Canva'],
+            'link' => 'https://solara-pay.com/',
             'images' => [
                 'assets/images/Solara Pay Pitch Deck 1.png'
             ] 
         ],
 
         [
-            'id' => 'graphic-1',
+            'id' => 'graphic-photo',
             'type' => 'graphic',
-            'title' => 'HMD Limited Graphics',
-            'category' => 'Graphic Design',
-            'desc' => 'A comprehensive brand identity package including logo design, social media assets, and marketing materials.',
-            'details' => 'This project involved creating a cohesive visual identity for a client. Deliverables included a primary logo, secondary marks, color palette selection, typography guidelines, and a suite of social media templates to ensure consistent brand representation across all channels.',
+            'title' => 'Photo Manipulation Project',
+            'category' => 'Photo Manipulation',
+            'desc' => 'Creative photo manipulation and composition works demonstrating advanced editing skills and artistic vision.',
+            'details' => 'A collection of creative photo manipulation projects. These pieces explore surreal concepts and advanced blending techniques in Photoshop, transforming ordinary images into compelling visual narratives.',
             'tech_stack' => ['Photoshop', 'Illustrator', 'Canva'],
             'link' => '#',
             'images' => [
