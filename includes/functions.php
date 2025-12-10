@@ -158,10 +158,10 @@ function getProjects() {
         [
             'id' => 'graphic-solar',
             'type' => 'graphic',
-            'title' => 'Solar Pay',
+            'title' => 'Solara Pay',
             'category' => 'Social Media Design',
             'desc' => 'Engaging social media graphics and marketing assets designed to promote a modern fintech solution.',
-            'details' => 'Designed a series of vibrant and engaging social media creatives for Solar Pay. The focus was on clear communication of financial features, using modern typography and consistent brand colors to build trust and user engagement across digital platforms.',
+            'details' => 'Designed a series of vibrant and engaging social media creatives for Solara Pay. The focus was on clear communication of financial features, using modern typography and consistent brand colors to build trust and user engagement across digital platforms.',
             'tech_stack' => ['Photoshop', 'Canva'],
             'link' => 'https://solarpay.fun/',
             'images' => [
