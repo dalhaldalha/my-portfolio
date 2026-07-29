@@ -2,7 +2,7 @@
 
 Welcome to the repository for my personal portfolio website! I'm **Dalha**, a Junior PHP Developer, Web Designer, and Graphic Designer who specializes in building custom, responsive websites and creating compelling visual identities.
 
-## 🚀 Overview
+## Overview
 
 This portfolio is a custom-built PHP web application designed to showcase my skills, professional experience, and selected projects. It highlights my work across both **Web Development** and **Graphic Design**.
 
@@ -12,13 +12,13 @@ This portfolio is a custom-built PHP web application designed to showcase my ski
 - **Dual Portfolio Focus:** Dedicated sections for both Web Design (PHP/WordPress) and Graphic Design (Branding/Social Media).
 - **Interactive Project Modals:** A detailed view for each project with image carousels and tech stack tags.
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Backend:** PHP 8.2
 - **Frontend:** HTML5, CSS3 (Custom CSS), JavaScript (Vanilla JS)
 - **Design Tools:** Photoshop, Illustrator, Canva, Figma
 - **Other:** Git, Docker (for local development)
 
-## 💼 Featured Work
+## Featured Work
 
 ### Web Projects
 * **Taldot Consulting:** Interior Design platform built with WordPress.
